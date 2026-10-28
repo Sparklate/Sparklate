@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f58b16">
+  <meta name="description" content="Shop the flexible, USB rechargeable electric gas lighter.">
+  <title>SparkLite — Electric Gas Lighter</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="https://checkout.razorpay.com/v1/checkout.js" defer></script>
+</head>
+<body>
+  <div class="announcement">A smarter spark for everyday cooking <span>•</span> Secure checkout</div>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="SparkLite home"><span class="brand-mark">✦</span> Spark<span>Lite</span></a>
+    <nav><a href="#features">Features</a><a href="#how-to-use">How to use</a><a href="#faq">FAQs</a></nav>
+    <button class="cart-button" id="open-cart" aria-label="Open cart">Bag <span id="cart-count">0</span></button>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> THE EVERYDAY ESSENTIAL</p>
+        <h1>A better way<br>to <em>light the moment.</em></h1>
+        <p class="hero-desc">Meet the flexible electric gas lighter — rechargeable, easy to handle, and ready for your everyday kitchen rituals.</p>
+        <div class="price-line"><strong id="hero-price">₹299</strong><del>₹499</del><span class="save">Save 40%</span></div>
+        <div class="hero-actions"><button class="btn btn-primary" id="buy-now">Shop the lighter <span>↗</span></button><a class="text-link" href="#features">Discover features ↓</a></div>
+        <div class="trust-row"><span>✓ USB rechargeable</span><span>✓ Flexible neck</span><span>✓ One-touch ignition</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="image-glow"></div>
+        <img src="/product-poster.jpg" alt="Electric gas lighter product and feature reference" class="product-image">
+        <div class="floating-note"><span class="spark-icon">✦</span><div><b>Flexible by design</b><small>360° neck reach</small></div></div>
+      </div>
+    </section>
+
+    <section class="benefit-strip wrap">
+      <div><span class="benefit-icon">↻</span><b>Rechargeable</b><small>USB charging</small></div>
+      <div><span class="benefit-icon">⌁</span><b>Flexible neck</b><small>Reach with ease</small></div>
+      <div><span class="benefit-icon">✧</span><b>One-touch</b><small>Simple operation</small></div>
+      <div><span class="benefit-icon">◇</span><b>Everyday use</b><small>Kitchen & more</small></div>
+    </section>
+
+    <section class="feature-section wrap" id="features">
+      <div class="section-heading"><p class="eyebrow">DESIGNED FOR YOUR ROUTINE</p><h2>Small detail. <em>Big convenience.</em></h2><p>Thoughtful features that make lighting up a little simpler.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card orange"><span class="card-number">01 / FLEXIBLE</span><div class="feature-art arc-art">↝</div><h3>Reach with confidence</h3><p>The long, flexible neck helps keep your hand farther from the ignition point.</p></article>
+        <article class="feature-card cream"><span class="card-number">02 / RECHARGEABLE</span><div class="feature-art usb-art">⌁</div><h3>Power up with USB</h3><p>Recharge the lighter using a compatible USB power source before use.</p></article>
+        <article class="feature-card dark"><span class="card-number">03 / SIMPLE CONTROL</span><div class="feature-art touch-art">◎</div><h3>Easy one-touch use</h3><p>Designed with a power button and safety lock for a straightforward routine.</p></article>
+      </div>
+    </section>
+
+    <section class="how-section" id="how-to-use"><div class="wrap how-layout"><div><p class="eyebrow">READY WHEN YOU ARE</p><h2>Three steps.<br><em>One simple spark.</em></h2><p class="muted">Always follow the included product instructions and keep the lighter away from children.</p></div><div class="steps"><div class="step"><span>01</span><div><b>Charge before use</b><p>Connect to a compatible USB power source.</p></div></div><div class="step"><span>02</span><div><b>Unlock the safety switch</b><p>Move the safety lock to the operating position.</p></div></div><div class="step"><span>03</span><div><b>Press to ignite</b><p>Use carefully, away from face, clothing and flammable materials.</p></div></div></div></div></section>
+
+    <section class="order-section wrap" id="order">
+      <div class="order-copy"><p class="eyebrow">MAKE IT YOURS</p><h2>Your everyday<br><em>spark starts here.</em></h2><p>Choose your quantity and continue to secure checkout.</p><div class="mini-points"><span>✓ Clear order summary</span><span>✓ Delivery details at checkout</span><span>✓ Online payment or COD option</span></div></div>
+      <div class="buy-card"><div class="buy-product"><img src="/product-poster.jpg" alt="Electric gas lighter" /><div><b>Electric Gas Lighter</b><small>Colour may vary by availability</small><div class="stock"><span></span> Ready to order</div></div></div><div class="buy-price"><strong id="card-price">₹299</strong><del>₹499</del></div><div class="quantity-row"><label for="quantity">Quantity</label><div class="qty"><button id="qty-minus" aria-label="Decrease quantity">−</button><output id="quantity">1</output><button id="qty-plus" aria-label="Increase quantity">+</button></div></div><div class="subtotal"><span>Subtotal</span><b id="subtotal">₹299</b></div><button class="btn btn-primary full" id="checkout-button">Continue to checkout <span>→</span></button><p class="secure-note">♢ Secure checkout · No payment is taken on this page</p></div>
+    </section>
+
+    <section class="faq-section wrap" id="faq"><div class="section-heading"><p class="eyebrow">GOOD TO KNOW</p><h2>Questions, <em>answered.</em></h2></div><div class="faq-list">
+      <details><summary>How do I recharge the lighter?<span>+</span></summary><p>Use a compatible USB power source and the charging cable supplied with your product. Follow the included manual.</p></details>
+      <details><summary>Can I use it outdoors?<span>+</span></summary><p>Use only as permitted by the product manual and keep away from water, strong wind, children and flammable materials.</p></details>
+      <details><summary>Which payment methods are available?<span>+</span></summary><p>Cash on Delivery is available in this starter store. Online payment becomes available after Razorpay credentials are configured.</p></details>
+      <details><summary>How much is delivery?<span>+</span></summary><p>Delivery charges and serviceable PIN codes must be confirmed by your store before launch. This starter currently displays a placeholder free-delivery estimate; configure your actual shipping policy before accepting orders.</p></details>
+    </div></section>
+    <section class="closing-cta"><div class="wrap closing-inner"><div><p class="eyebrow">A LITTLE MORE CONVENIENCE</p><h2>Make everyday moments<br><em>feel effortless.</em></h2></div><button class="btn btn-light" id="bottom-buy">Order yours <span>↗</span></button></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="wrap footer-top"><a class="brand" href="#"><span class="brand-mark">✦</span> Spark<span>Lite</span></a><p>Simple essentials for everyday living.</p><div><a href="#faq">FAQs</a><a href="/policies.html">Policies</a><a href="mailto:orders@example.com">Contact</a></div></div><div class="wrap footer-bottom"><span>© <span id="year"></span> SparkLite. Replace with your registered business details.</span><span>Payments processed securely by payment provider when enabled.</span></div></footer>
+
+  <div class="overlay" id="checkout-modal" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="checkout-title">
+      <button class="modal-close" id="close-modal" aria-label="Close checkout">×</button>
+      <div class="modal-header"><p class="eyebrow">ALMOST THERE</p><h2 id="checkout-title">Checkout</h2><p>Enter your delivery details to place your order.</p></div>
+      <div class="checkout-summary"><div><b>Electric Gas Lighter</b><small id="summary-qty">Qty 1</small></div><strong id="summary-total">₹299</strong></div>
+      <form id="checkout-form">
+        <div class="form-grid"><label>Full name *<input name="name" required maxlength="100" autocomplete="name" placeholder="Your name"></label><label>Mobile number *<input name="phone" required inputmode="tel" pattern="[0-9+() -]{8,20}" autocomplete="tel" placeholder="10-digit mobile number"></label><label class="wide">Email (optional)<input name="email" type="email" autocomplete="email" placeholder="you@example.com"></label><label class="wide">Full delivery address *<textarea name="address" required maxlength="300" autocomplete="street-address" placeholder="House / street / landmark"></textarea></label><label>City *<input name="city" required autocomplete="address-level2"></label><label>State<input name="state" autocomplete="address-level1" placeholder="State"></label><label>PIN code *<input name="pincode" required inputmode="numeric" pattern="[0-9]{5,12}" autocomplete="postal-code" placeholder="PIN code"></label></div>
+        <fieldset class="payment-options"><legend>Payment method</legend><label class="payment-option"><input type="radio" name="paymentMethod" value="cod" checked><span><b>Cash on Delivery</b><small>Pay when your order arrives</small></span><strong>COD</strong></label><label class="payment-option" id="online-option"><input type="radio" name="paymentMethod" value="razorpay" disabled><span><b>Pay online</b><small>UPI, cards and other supported methods</small></span><strong>↗</strong></label></fieldset>
+        <label class="terms"><input type="checkbox" required> I confirm my delivery details and agree to the store policies.</label>
+        <p class="form-error" id="form-error" role="alert"></p>
+        <button class="btn btn-primary full" type="submit" id="place-order">Place order · <span id="modal-total">₹299</span></button>
+        <p class="secure-note">Your information is used to process this order only.</p>
+      </form>
+      <div class="success-panel" id="success-panel" hidden><div class="success-mark">✓</div><h3>Order received!</h3><p id="success-message"></p><button class="btn btn-primary full" id="finish-order">Continue shopping</button></div>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="/app.js" defer></script>
+</body>
+</html>
